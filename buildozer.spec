@@ -8,8 +8,8 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 version = 1.0
 
-# Kunci versi python3 ke 3.11.5 agar tidak menarik Python 3.14 yang error
-requirements = python3==3.11.5,kivy==2.3.0,pyjnius
+# Kunci python3 dan hostpython3 ke versi yang sama persis (3.11.5)
+requirements = python3==3.11.5,hostpython3==3.11.5,kivy==2.3.0,pyjnius
 
 orientation = portrait
 fullscreen = 0
